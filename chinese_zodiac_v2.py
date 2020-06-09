@@ -15,6 +15,7 @@ print(chinese_zodiac[year % 12])
 if chinese_zodiac[year % 12] == '狗':
     print('狗年运势大吉大利')
 
+# for 循环
 for cz in chinese_zodiac:
     print(cz)
 
@@ -23,3 +24,16 @@ for i in range(1, 13):
 
 for year in range(2000, 2019):
     print('%s 年的生肖是 %s' % (year, chinese_zodiac[year % 12]))
+
+
+# while 循环
+import time
+num = 5
+while True:
+    num = num + 1
+
+    if num > 10:
+        break
+
+    print(num)
+    time.sleep(1)
