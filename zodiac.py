@@ -15,3 +15,10 @@ zodiac_day = filter(lambda x: x <= (month, day), zodiac_days)
 zodiac_len = len(list(zodiac_day)) % 12
 print(zodiac_len)
 print(zodiac_name[zodiac_len])
+
+# list 的操作
+a_list = ['abc', 'xyz']
+a_list.append('X')
+print(a_list)
+a_list.remove('xyz')
+print(a_list)
