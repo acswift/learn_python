@@ -22,7 +22,6 @@ for val in f:
     print(val)
 
 # Python 中还有另外一种定义生成器的方式，就是通过 yield 关键字将一个普通函数改造成生成器函数。
-
 def fib(n):
     a, b = 0, 1
     for _ in range(n):
